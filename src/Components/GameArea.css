@@ -1,0 +1,67 @@
+
+.game_area {
+    width: 70%;
+    background-color: white;;
+    margin: 20px auto;
+    padding: 20px 0px 0px;
+    border-radius: 5%;
+    overflow-y: hidden;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(42, 42, 148);
+}
+
+.game_rows {
+    display: flex;
+    align-items: stretch;
+}
+
+.game_rows > input{
+    color: black;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    caret-color: #616060;
+    flex-grow: 1;
+    min-width: 0;
+    border: none;
+}
+
+
+.space {
+    background-color: #ffb74d;
+}
+
+.alpha {
+    background-color: #e1e1e1;
+}
+
+input[id$="alpha"] {
+    background-color: #e1e1e1;
+}
+
+button {
+    font-size: 25px;
+    margin: 0px auto;
+    background-color: #4caf50;
+    padding: 5px 15px;
+    color: white;
+}
+
+.next_button {
+    display: none;
+}
+
+.game_win {
+    display: none;
+    text-align: center;
+    background-color: #ececec;
+    color: rgb(5, 5, 5);
+    margin: 200px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
